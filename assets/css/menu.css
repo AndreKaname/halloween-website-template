@@ -66,3 +66,13 @@
      background-color: orangered;
      border-radius: 5%;
 }
+
+#menu ul li img {
+     width: 25%;
+     height: 25%;
+}
+
+#menu ul li a:hover img {
+     width: 20%;
+     height: 20%;
+}

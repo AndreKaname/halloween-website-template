@@ -1,6 +1,5 @@
 #headline {
     
-    
     height: 575px;
     background-color: gray;
     background-image: url(../midia/pumpkin03.jpg);
@@ -11,8 +10,6 @@
     justify-content: center;
     align-items: center;
     flex-flow: column;
-    
-  
     
 }
 
@@ -31,13 +28,12 @@
 
 #headline a {
     margin: 20px;
-    padding: 10px;
+    padding: 10px 60px;
     text-decoration: none;
     font-size: 30px;
     color: white;
-    background-color: rgba(255, 97, 40, 0.815);
-    border-radius: 6%;
     font-family: 'Source Code Pro', monospace;
+    border: 3px solid rgb(255, 255, 255);
 }
 
 #headline a:hover {

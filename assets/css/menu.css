@@ -8,7 +8,7 @@
    font-family: 'Source Code Pro', monospace;; */
 /* 
           Variações de cor
-Invertido                #0073ff
+Invertido                #00aff5
 25% saturado             #ff8f00
 Escala de cinzentos      #808080
 25% mais claro           #ffa940
@@ -24,7 +24,7 @@ HTML: darkorange         #ff8c00
      flex-flow: row wrap;
      justify-content: center;
      align-items: center;
-     background-color: rgba(255, 95, 37, 0.986);
+     background-color: #ff8c00; 
      
 
 }

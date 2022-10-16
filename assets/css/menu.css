@@ -6,7 +6,18 @@
 
 /* font-family: 'Amatic SC', cursive;
    font-family: 'Source Code Pro', monospace;; */
-
+/* 
+          Variações de cor
+Invertido                #0073ff
+25% saturado             #ff8f00
+Escala de cinzentos      #808080
+25% mais claro           #ffa940
+Original                 #ff8c00
+25% mais escuro          #cc7000
+Cor da web: red          #ff0000 / #f00
+25% dessaturado          #e68a19
+HTML: darkorange         #ff8c00  
+*/
 #menu {
      
      display: flex;

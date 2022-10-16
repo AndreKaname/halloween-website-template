@@ -1,4 +1,49 @@
 #headline {
-    height: 500px;
+    
+    
+    height: 580px;
     background-color: gray;
+    background-image: url(../midia/pumpkin03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    
+  
+    
 }
+
+#headline h1 {
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+    color: white;
+    padding: 20px;
+    
+}
+
+#headline p {
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+
+#headline a {
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    background-color: rgba(255, 97, 40, 0.815);
+    border-radius: 6%;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#headline a:hover {
+    background-color: rgb(255, 97, 40);
+    font-weight: 600;
+    
+
+}
+

@@ -6,16 +6,31 @@
 
 /* font-family: 'Amatic SC', cursive;
    font-family: 'Source Code Pro', monospace;; */
-
+/* 
+          Variações de cor
+Invertido                #00aff5
+25% saturado             #ff8f00
+Escala de cinzentos      #808080
+25% mais claro           #ffa940
+Original                 #ff8c00
+25% mais escuro          #cc7000
+Cor da web: red          #ff0000 / #f00
+25% dessaturado          #e68a19
+HTML: darkorange         #ff8c00  
+*/
 #menu {
      
      display: flex;
      flex-flow: row wrap;
      justify-content: center;
      align-items: center;
+<<<<<<< HEAD
      background-color: rgba(255, 95, 37, 0.986);
      position: fixed;
      width: 100%;
+=======
+     background-color: #ff8c00; 
+>>>>>>> e37fff34e3bb40d0736eac5916e10de6caeb2ef8
      
 
 }

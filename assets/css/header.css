@@ -1,7 +1,7 @@
 #headline {
     
     height: 575px;
-    background-color: gray;
+    background-color: #808080;
     background-image: url(../midia/pumpkin03\(1000\).png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +16,7 @@
 #headline h1 {
     font-size: 60px;
     font-family: 'Amatic SC', cursive;
-    color: white;
+    color: #00aff5;
     padding: 20px;
     
 }
@@ -33,11 +33,11 @@
     font-size: 30px;
     color: white;
     font-family: 'Source Code Pro', monospace;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid #ffa940;
 }
 
 #headline a:hover {
-    background-color: rgb(252, 80, 17);
+    background-color: #ff0000 ;
     font-weight: 600;
     
 

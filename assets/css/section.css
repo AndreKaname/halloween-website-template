@@ -1,5 +1,6 @@
 #section1 {
     height: 600px;
+<<<<<<< HEAD
     background-color: gray;
     display: flex;
     flex-flow: column;
@@ -13,3 +14,7 @@
 
 
 
+=======
+    background-color: #808080;
+}
+>>>>>>> e37fff34e3bb40d0736eac5916e10de6caeb2ef8

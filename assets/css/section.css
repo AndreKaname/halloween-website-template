@@ -1,4 +1,15 @@
 #section1 {
     height: 600px;
     background-color: gray;
+    display: flex;
+    flex-flow: column;
 }
+
+.lo {
+    font-size: 80px;
+}
+    
+
+
+
+

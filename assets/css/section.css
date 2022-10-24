@@ -1,4 +1,47 @@
 #section1 {
-    height: 600px;
+    
     background-color: gray;
 }
+
+#container-1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+
+
+}
+
+#items-1 {
+     width: 700px;
+     height: 530px;
+    
+    
+
+}
+
+#img-section-1 {
+    width: 650px;
+   
+
+}
+
+#items-1 h1 {
+    padding: 5px;
+    font-size: 40px;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+
+#items-1 p {
+    font-size: 15px;
+    overflow: auto;
+    font-weight: 700;
+    font-family: 'Source Code Pro', monospace;
+    padding: 13px;
+    color: white;
+
+}
+

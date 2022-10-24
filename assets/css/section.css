@@ -1,6 +1,6 @@
 #section1 {
     
-    background-color: gray;
+    background-image: url(../midia/background-section-halloween.jpg);
 }
 
 #container-1 {
@@ -16,7 +16,7 @@
 
 #items-1 {
      width: 700px;
-     height: 530px;
+     height: 700px;
     
     
 
@@ -29,10 +29,11 @@
 }
 
 #items-1 h1 {
-    padding: 5px;
-    font-size: 40px;
-    font-family: 'Source Code Pro', monospace;
+    padding: 20px;
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
     color: white;
+    
 }
 
 #items-1 p {

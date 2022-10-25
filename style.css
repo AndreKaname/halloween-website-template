@@ -64,7 +64,7 @@
 
 #headline {
     height: 680px;
-    background-image: url(../midia/pumpkin03\(1000\).png);
+    background-image: url(assets/midia/pumpkin03\(1000\).png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -103,50 +103,14 @@
 
   /* SECTION-1 */
 
-#section1 {
-    background-image: url(../midia/background-section-halloween.jpg);
-}
-
-#container-1 {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 5%;
-}
-
-#items-1 {
-     width: 700px;
-     height: 700px;
-}
-
-#img-section-1 {
-    width: 650px;
-}
-
-#items-1 h1 {
-    padding: 20px;
-    font-size: 60px;
-    font-family: 'Amatic SC', cursive;
-    color: white;
-}
-
-#items-1 p {
-    font-size: 15px;
-    overflow: auto;
-    font-weight: 700;
-    font-family: 'Source Code Pro', monospace;
-    padding: 13px;
-    color: white;
-}  
-
-   /* SECTION-2 */
-
-   #section2 {
+#section-login {
     background-color: gray;
     height: 700px;
-}   
+
+}  
+
+
+
 
 
 

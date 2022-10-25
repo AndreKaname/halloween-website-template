@@ -26,10 +26,12 @@
 }
 
 #logo h1 {
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 700;
     padding: 10px 15px;
     font-family: 'Amatic SC', cursive;
+    color: white;
+    text-shadow: 2px 0 1px black;
 }
 
 #menu ul {
@@ -160,11 +162,12 @@ input::placeholder{
 
 form [type="submit"]{
     display: block;
-    background-color: #5568FE;
+    background-color: rgb(252, 80, 17);
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
+    margin-bottom: 8px;
 }
 
 p{
@@ -172,9 +175,11 @@ p{
 }
 
 a{
-    color: #5568FE;
+    color: rgb(252, 80, 17);
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 10px;     
+
+
 }
 
 body{

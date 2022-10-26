@@ -1,13 +1,23 @@
-* {
+*  {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* font-family: 'Amatic SC', cursive;
-  font-family: 'Source Code Pro', monospace; */
+/* LOADER */
 
-  /* MENU */
+#loader  {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color: rgb(255, 95, 37);
+}
+
+/* MENU */
 
 #menu {
     display: flex;
@@ -64,7 +74,7 @@
     color: white;
 }
 
-  /* HEADER */
+/* HEADER */
 
 #headline {
     height: 680px;
@@ -107,7 +117,7 @@
 
 /* SECTION-2 */
 
-.area-login{
+.area-login {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +125,7 @@
     background-image: url(assets/midia/background-section-halloween.jpg);
 }
 
-.login{
+.login {
     display: flex;
     background-color: #181920;
     flex-direction: column;
@@ -126,13 +136,13 @@
     border-radius: 10px;
 }
 
-.login form{
+.login form {
     display: flex;
     width: 100%;
     flex-direction: column;
 }
 
-.login input{
+.login input {
     margin-top: 10px;
     background-color: #252a34;
     color: #CBD0F7;
@@ -143,17 +153,17 @@
     padding-left: 10px;
 }
 
-.login img{
+.login img {
     width: 65px;
     height: auto;
 }
 
-input::placeholder{
+input::placeholder {
     color: #CBD0F7;
     font-size: 14px;
 }
 
-form [type="submit"]{
+form [type="submit"] {
     display: block;
     background-color: rgb(252, 80, 17);
     font-size: 20px;
@@ -163,19 +173,16 @@ form [type="submit"]{
     margin-bottom: 8px;
 }
 
-p{
+p {
     color: #CBD0F7;
 }
 
-a{
+a {
     color: rgb(252, 80, 17);
     text-decoration: none;
     margin-left: 10px;     
 
 
 }
-
-
-
 
 /* FIM DAS MINHAS MODIFICAÇÕES */

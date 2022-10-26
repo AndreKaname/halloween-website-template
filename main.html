@@ -20,6 +20,9 @@
 
 <body>
 
+<div id="loader">
+    <p>Loading...</p>
+</div>
 
 <nav id="menu">
 
@@ -69,5 +72,14 @@
 </footer>  
 
 </body>
-
+<script>
+    /**
+     * Remove o loader por cima do site quando tudo estiver carregado,
+     * evitando assim a quebra de estilo durante o carregamento.
+     */
+    const loader = document.querySelector('#loader')
+    window.addEventListener('load', function() {
+        loader.style.display = 'none'   
+    })
+</script>
 </html>
